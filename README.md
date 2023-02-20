@@ -89,7 +89,7 @@ A mensagem "Connected to MySQL server successfully!" indica que a conexão do ph
 
 Agora, é só criar uma pasta para armazenar seus projetos php na pasta 'html':
 ```bash
-sudo mkdir ./php-apache-mysql-docker/.docker/php/html/projetos && cd ./php-apache-mysql-docker/.docker/php/html/projetos && code .
+sudo mkdir ./.docker/php/html/projetos && cd ./.docker/php/html/projetos && code .
 ```
 Divirta-se!
 
@@ -181,6 +181,7 @@ Copie e cole o código fonte:
 <?php
 phpinfo();
 ```
+
 Acesse o projeto utilizando o link [localhost:8000](localhost:8000).
 
 Se o resultado for uma página com as informações do php, parabéns, você conseguiu startar o projeto com sucesso!
@@ -210,6 +211,7 @@ echo "Connected to MySQL server successfully!";
 $conn->close();
 
 ```
+
 Acesse o teste de conexão utilizando o link [localhost:8000/teste-conexao.php](127.0.0.1:8000/teste-conexao.php).<br>
 
 Se a mensagem "Connected to MySQL server successfully!" aparecer na tela, parabéns! Você concluiu a instalação do php, apache e mysql.
