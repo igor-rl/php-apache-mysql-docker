@@ -70,7 +70,7 @@ Data: 19/02/2023
 Para clonar o projeto, abra o bash e execute o comando:
 
 ```bash
-gh repo clone igorRL/docker-php-apache-mysql
+gh repo clone igorRL/php-apache-mysql-docker
 ```
 
 Acesse o projeto utilizando o link [localhost:8000](http://127.0.0.1:8000).
