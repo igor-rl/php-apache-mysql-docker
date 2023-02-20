@@ -74,7 +74,14 @@ Para clonar o projeto, abra o bash e execute o comando:
 git@github.com:igorRL/php-apache-mysql-docker.git
 ```
 
-Acesse o projeto utilizando o link [localhost:8000](http://127.0.0.1:8000).
+Para inicializar o projeto, execute os comandos:
+```bash
+cd php-apache-mysql-docker && docker compose up -d
+```
+
+Assim que os containers forem criados, você já pode iniciar os testes do projeto.
+
+Acesse o link [localhost:8000](http://127.0.0.1:8000).
 Uma página contendo as configurações do php e apache serão exibidas.
 
 Acesse o teste de conexão utilizando o link [localhost:8000/teste-conexao.php](http://127.0.0.1:8000/teste-conexao.php).
