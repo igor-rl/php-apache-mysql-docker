@@ -182,7 +182,7 @@ Copie e cole o código fonte:
 phpinfo();
 ```
 
-Acesse o projeto utilizando o link [localhost:8000](localhost:8000).
+Acesse o projeto utilizando o link [localhost:8000](http://127.0.0.1:8000).
 
 Se o resultado for uma página com as informações do php, parabéns, você conseguiu startar o projeto com sucesso!
 
@@ -212,7 +212,7 @@ $conn->close();
 
 ```
 
-Acesse o teste de conexão utilizando o link [localhost:8000/teste-conexao.php](127.0.0.1:8000/teste-conexao.php).<br>
+Acesse o teste de conexão utilizando o link [localhost:8000/teste-conexao.php](http://127.0.0.1:8000/teste-conexao.php).<br>
 
 Se a mensagem "Connected to MySQL server successfully!" aparecer na tela, parabéns! Você concluiu a instalação do php, apache e mysql.
 </ul>
