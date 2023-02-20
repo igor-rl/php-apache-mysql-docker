@@ -53,6 +53,7 @@ Data: 19/02/2023
 
 [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) - Subsistema linux para windows <br>
 [Ubuntu](https://ubuntu.com/wsl)<br>
+[VS Code](https://learn.microsoft.com/pt-br/windows/wsl/tutorials/wsl-vscode)<br>
 [node.js](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl) <br>
 [npm](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl#install-nvm-nodejs-and-npm) <br>
 [OhMyZshel](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) - opcional<br>
@@ -67,9 +68,22 @@ Data: 19/02/2023
 ## Clonar e inicializar o projeto
 <br>
 Para clonar o projeto, abra o bash e execute o comando:
-```bash
 
+```bash
+gh repo clone igorRL/docker-php-apache-mysql
 ```
+
+Acesse o projeto utilizando o link [localhost:8000](http://127.0.0.1:8000).
+Uma página contendo as configurações do php e apache serão exibidas.
+
+Acesse o teste de conexão utilizando o link [localhost:8000/teste-conexao.php](http://127.0.0.1:8000/teste-conexao.php).
+A mensagem "Connected to MySQL server successfully!" indica que a conexão do php com o banco de dados está configurada e pronta para uso.
+
+Agora, é só criar uma pasta para armazenar seus projetos php na pasta 'html':
+```bash
+sudo mkdir ./.docker/php/html/projetos && cd ./.docker/php/html/projetos && code .
+```
+Divirta-se!
 
 <br>
 <hr>
