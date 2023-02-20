@@ -21,7 +21,7 @@
 <br>
 
 <p align="center">
-Esse material contem as configurações básicas para startar um projeto php, apache e mysql usando o docker.
+Esse material contem as configurações básicas para startar um projeto php, apache e mysql utilizando docker.
 <br>
 Autor: Igor Lage
 <br>
@@ -56,6 +56,7 @@ Data: 19/02/2023
 [VS Code](https://learn.microsoft.com/pt-br/windows/wsl/tutorials/wsl-vscode)<br>
 [node.js](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl) <br>
 [npm](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl#install-nvm-nodejs-and-npm) <br>
+[GitHub CLI](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)<br>
 [OhMyZshel](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) - opcional<br>
 [Docker Engine](https://docs.docker.com/engine/install/ubuntu/)<br>
 [Docker Compose](https://docs.docker.com/compose/install/linux/)<br>
@@ -70,7 +71,7 @@ Data: 19/02/2023
 Para clonar o projeto, abra o bash e execute o comando:
 
 ```bash
-gh repo clone igorRL/php-apache-mysql-docker
+git@github.com:igorRL/php-apache-mysql-docker.git
 ```
 
 Acesse o projeto utilizando o link [localhost:8000](http://127.0.0.1:8000).
@@ -81,7 +82,7 @@ A mensagem "Connected to MySQL server successfully!" indica que a conexão do ph
 
 Agora, é só criar uma pasta para armazenar seus projetos php na pasta 'html':
 ```bash
-sudo mkdir ./.docker/php/html/projetos && cd ./.docker/php/html/projetos && code .
+sudo mkdir ./php-apache-mysql-docker/.docker/php/html/projetos && cd ./php-apache-mysql-docker/.docker/php/html/projetos && code .
 ```
 Divirta-se!
 
