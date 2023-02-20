@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+
+  php-apache:
+    container_name: php-apache
+    build:
+      context: ./.docker/php
+      dockerfile: Dockerfile
+    depends_on:
+      - mysql
+    restart: always
+    ports:
+      - 8000:80
+    volumes:
+      - ./.docker/php/html:/var/www/html/
+
+  mysql:
+    container_name: mysql
+    image: mysql
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./.docker/php/data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: teste
