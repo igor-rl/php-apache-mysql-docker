@@ -71,7 +71,7 @@ Data: 19/02/2023
 Para clonar o projeto, abra o bash e execute o comando:
 
 ```bash
-git@github.com:igorRL/php-apache-mysql-docker.git
+gh repo clone igorRL/php-apache-mysql-docker
 ```
 
 Para inicializar o projeto, execute os comandos:
